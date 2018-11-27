@@ -1,0 +1,25 @@
+html {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: bottom;
+  min-height: 100%;
+}
+
+.hero-text {
+  text-align: left;
+  position: absolute;
+  color: white;
+}
+
+.container-left {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}

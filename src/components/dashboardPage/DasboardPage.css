@@ -1,0 +1,16 @@
+.dashboard {
+    width: 100%;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+}
+
+.dashboard-map {
+    flex: 75%;
+}
+
+.dashboard-initiatives {
+    flex: 25%;
+}

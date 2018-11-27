@@ -1,13 +1,18 @@
+import { CREATE_INITIATIVE, CREATE_INITIATIVE_ERROR } from '../../constants';
+
 const initState = {
-  initiatives: [
-    { id: '1', title: 'title 1' },
-    { id: '2', title: 'title 2' },
-    { id: '3', title: 'title 3' }
-  ]
+  initiatives: []
 };
 
 const initiativeReducer = (state = initState, action) => {
-  return state;
+  switch (action.type) {
+    case CREATE_INITIATIVE:
+      return state;
+    case CREATE_INITIATIVE_ERROR:
+      return state;
+    default:
+      return state;
+  }
 };
 
 export default initiativeReducer;
