@@ -1,3 +1,18 @@
+This is an experimental project and is still in progress. It is a SPA project built with React.js, Redux and Firebase.
+The application aims to connect volunteer communities for beach cleaning activities of the coast of California. The user can login with the email and password in the application as well as with the facebook, google or github account. Can navigate the map and easily identify all public beaches in California with map markers to find brief information about locations and to generate a waste collection initiative or other joint activities for the same purpose. The initiatives are saved in firestore
+database with the user's credentials. As future functionalities to implement:
+-full CRUD for initiative management.
+-focus on styles of app
+-developing the potential for potential volunteers to become involved in existing initiatives
+-messaging, etc.
+
+For state management I used redux, react-redux and redux-thunk as middleware.
+Database and applications are hosted on Firestore and for authentication I choose to use FirebaseUi Auth, FirebaseUi Library and Firebase Ui React components for react wrappers on top. It is easy to handle the UI flows for signing with email addresses and passwords,and google, facebook and github integration and ,of course React-redux-firebase for good integration with redux and support for authentication.
+
+To build map I choose to work with Leaflet because it is an open-source Javascript project for maps interactions with a lot of available plugins  and React-leaflet for simplicity, performance and usability.
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
